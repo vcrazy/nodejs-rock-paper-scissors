@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+	<title>Rock Paper Scissors</title>
+	<script src="http://rock-paper-scissors.jit.su/socket.io/socket.io.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="scripts.js?130103"></script>
+	<link href="styles.css?130103" rel="stylesheet" />
+</head>
+<body>
+	<h1>Vote: (<span id="online_number">1</span> online)</h1>
+	<h2><span id="interval">0</span> seconds remaining</h2>
+	<h2>Status: <span id="status">Wait</span></h2>
+	<img src="img/rock.jpg" alt="rock" class="sign" />
+	<img src="img/paper.jpg" alt="paper" class="sign" />
+	<img src="img/scissors.jpg" alt="scissors" class="sign" />
+	<div id="results">
+		<h2>Results:</h2>
+		<h3 id="winners_holder">Winners: <span id="winners"></span> (<span id="winners_showed"></span>)</h3>
+		<h3>Players: <br /><span id="players"></span></h3>
+	</div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+body {margin: 20px 0px 0px 20px; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;}
+img:hover {cursor: pointer;}
+.sign {border: 2px solid white;}
+.sign.active {border: 2px solid red;}
+#results {display: none;}
