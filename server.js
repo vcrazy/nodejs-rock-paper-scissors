@@ -1,6 +1,6 @@
 var app = require('http').createServer(), io = require('socket.io').listen(app), // app & io
 	interval = 10 * 1000, waiting = 5 * 1000, heartbeat_interval = 60 * 1000, // times in ms
-	connections = [], names = {}, signs = {}, disallowed = [], port = 80, game_on = false; // additions
+	connections = [], names = {}, signs = {}, disallowed = [], port = 22580, game_on = false; // additions
 
 app.listen(port);
 

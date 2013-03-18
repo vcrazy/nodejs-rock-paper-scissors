@@ -1,4 +1,4 @@
-socket = io.connect('http://rock-paper-scissors.jit.su/'),
+socket = io.connect('http://141.0.170.38/'),
 game_on = false;
 
 user = {
